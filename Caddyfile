@@ -1,0 +1,6 @@
+:80
+
+handle_path /hero-banner-demo/* {
+    file_server
+    root * /usr/share/caddy
+}
