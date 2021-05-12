@@ -34,4 +34,4 @@ Full lighthouse result could be found in [lighthouse.json](lighthouse.json) file
 
 | Tag                | LCP on Performance Tab (ms) | LCP Lighthouse |
 | ------------------ | --------------------------- | -------------- |
-| 2-background-image | 7500.8                      | 3.1s           |
+| 2-background-image | 44951.1                     | 35.7s          |
