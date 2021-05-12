@@ -38,18 +38,25 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          text-align: center;
-          z-index: 1;
-      }
-
-      .banner img {
-          width: 100%;
-          object-fit: cover;
       }
 
       .banner  p {
           color: white;
           padding: 10px;
+      }
+
+      .banner-overlay {
+          background-color: #00000030;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+      }
+
+      .photo-by {
+          font-size: 0.8em;
+          text-align: center;
       }
 
       @media (max-width: 576px) {
@@ -95,6 +102,9 @@
   </div>
   <img src="/assets/banner.jpeg"/>
 </div>
+<p class="photo-by">
+  Photo by <a href="https://unsplash.com/@brookelark?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brooke Lark</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</p>
 
 <div class="container">
 
