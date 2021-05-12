@@ -32,6 +32,7 @@ Command Line	/usr/bin/google-chrome-stable --flag-switches-begin --flag-switches
 
 Full lighthouse result could be found in [lighthouse.json](lighthouse.json) file.
 
-| Tag                | LCP on Performance Tab (ms) | LCP Lighthouse |
-| ------------------ | --------------------------- | -------------- |
+| Tag                | LCP on Performance Tab (ms) | LCP Lighthouse | Notes |
+| ------------------ | --------------------------- | -------------- |-------|
 | 2-background-image | 44951.1                     | 35.7s          |
+| 3-img-tag          | 44932.9                     | 35.8s          | TTI dropped 3.8 -> 3.3, TBT dropped 2570 -> 2140 |
